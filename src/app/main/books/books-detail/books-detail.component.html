@@ -4,10 +4,13 @@
     <o-column title-label="BOOK_INFORMATION" fxFlex>
       <o-row>
         <o-text-input attr="TITLE" fxFlex="40" required="yes"></o-text-input>
+        <o-text-input attr="DESCRIPTION" fxFlex="40" required="yes"></o-text-input>
       </o-row>
       <o-row>
         <o-integer-input attr="NUMBER_OF_SHEETS" class="input-padding" step="0" grouping="no" fxFlex="40"></o-integer-input>
         <o-text-input attr="ISBN" class="input-padding" fxFlex="40" required="yes"></o-text-input>
+      </o-row>
+      <o-row>
         <o-text-input attr="EDITORIAL" fxFlex="40" required="yes"></o-text-input>
         <o-integer-input attr="EDITION" step="0" class="input-padding" grouping="no" fxFlex="40" required="yes"></o-integer-input>
       </o-row>
@@ -15,7 +18,7 @@
         <o-date-input attr="DATE_OF_PUBLICATION" fxFlex="20"></o-date-input>
       </o-row>
       <o-row>
-        <o-text-input attr="ID_AUTHOR" fxFlex></o-text-input>
+        <o-text-input attr="ID_AUTHOR"></o-text-input>
       </o-row>
     </o-column>
   </o-row>

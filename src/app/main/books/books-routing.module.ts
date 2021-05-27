@@ -15,7 +15,12 @@ const routes: Routes = [{
 {
   path: ":ID",
   component: BooksDetailComponent
-}];
+},
+{
+  path: ":ID/edit",
+  component: BooksDetailComponent
+},
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
