@@ -1,0 +1,22 @@
+<o-form service="books" entity="book" keys="ID" header-actions="R;I;U;D" show-header-navigation="no">
+  <o-text-input attr="ID" sql-type="INTEGER" enabled="no"></o-text-input>
+  <o-row>
+    <o-column title-label="BOOK_INFORMATION" fxFlex>
+      <o-row>
+        <o-text-input attr="TITLE" fxFlex="40" required="yes"></o-text-input>
+      </o-row>
+      <o-row>
+        <o-integer-input attr="NUMBER_OF_SHEETS" class="input-padding" step="0" grouping="no" fxFlex="40"></o-integer-input>
+        <o-text-input attr="ISBN" class="input-padding" fxFlex="40" required="yes"></o-text-input>
+        <o-text-input attr="EDITORIAL" fxFlex="40" required="yes"></o-text-input>
+        <o-integer-input attr="EDITION" step="0" class="input-padding" grouping="no" fxFlex="40" required="yes"></o-integer-input>
+      </o-row>
+      <o-row>
+        <o-date-input attr="DATE_OF_PUBLICATION" fxFlex="20"></o-date-input>
+      </o-row>
+      <o-row>
+        <o-text-input attr="ID_AUTHOR" fxFlex></o-text-input>
+      </o-row>
+    </o-column>
+  </o-row>
+</o-form>

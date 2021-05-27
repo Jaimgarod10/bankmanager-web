@@ -1,0 +1,8 @@
+<o-form-layout-manager attr="homeTable" title="{{'BOOKS' | oTranslate }}" separator=" " mode="tab" label-columns="ID">
+  <div>
+    <o-table attr="booksTable" service="books" entity="book" keys="ID"
+      columns="ID;TITLE;DESCRIPTION;NUMBER_OF _SHEETS;ISBN;EDITORIAL;EDITION;DATE OF PUBLICATION;ID_AUTHOR"
+      visible-columns="ID;TITLE;DESCRIPTION;ISBN" query-rows="20">
+    </o-table>
+  </div>
+</o-form-layout-manager>
