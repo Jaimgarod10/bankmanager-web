@@ -1,0 +1,9 @@
+<o-form-layout-manager attr="instanceshomeTable" title="{{'INSTANCES' | oTranslate }}" separator=" " mode="tab" label-columns="ID">
+  <div>
+    <o-table attr="instancesTable" service="instances" entity="instance" keys="ID"
+      columns="ID;DATE_OF_ADMISSION;ID_BOOKS"
+      visible-columns="ID;DATE_OF_ADMISSION" query-rows="20">
+      <o-table-column attr="DATE_OF_ADMISSION" title="DATE_OF_ADMISSION" type="date" format="LL"></o-table-column>
+    </o-table>
+  </div>
+</o-form-layout-manager>

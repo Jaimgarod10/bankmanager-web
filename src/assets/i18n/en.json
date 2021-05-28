@@ -26,5 +26,7 @@
   "EDITION": "Edition",
   "DATE_OF_PUBLICATION": "Date of publication",
   "ID_AUTHOR": "id_author",
-  "BOOK_INFORMATION": "Book Information"
+  "BOOK_INFORMATION": "Book Information",
+  "DATE_OF_ADMISION": "Date of admision",
+  "ID_BOOKS": "id_books"
 }

@@ -29,5 +29,7 @@
   "STARTDATE": "Fecha inicio",
   "EMAIL": "Correo",
   "PHOTO": "Fotografía",
-  "BOOK_INFORMATION": "Información de libro"
+  "BOOK_INFORMATION": "Información de libro",
+  "DATE_OF_ADMISION": "Fecha de aceptación",
+  "ID_BOOKS": "id_libros"
 }
