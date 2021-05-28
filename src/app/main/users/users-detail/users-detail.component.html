@@ -1,0 +1,15 @@
+<o-form service="users2" entity="users" keys="ID" header-actions="R;I;U;D" show-header-navigation="no">
+  <o-text-input attr="ID" sql-type="INTEGER" enabled="no"></o-text-input>
+  <o-row>
+    <o-column title-label="USER_INFORMATION" fxFlex>
+      <o-row>
+        <o-text-input attr="NAME" fxFlex="40" required="yes"></o-text-input>
+        <o-text-input attr="SURNAMES" fxFlex="40" required="yes"></o-text-input>
+      </o-row>
+      <o-row>
+        <o-text-input attr="EMAIL" class="input-padding" step="0" grouping="no" fxFlex="40"></o-text-input>
+        <o-integer-input attr="PHONE" class="input-padding" fxFlex="40" required="yes"></o-integer-input>
+      </o-row>
+    </o-column>
+  </o-row>
+</o-form>

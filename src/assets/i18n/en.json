@@ -18,6 +18,9 @@
   "BOOKS": "Books",
   "ID": "Id.",
   "NAME": "Name",
+  "SURNAMES": "Surnames",
+  "PHONE": "Phone",
+  "EMAIL": "Email",
   "TITLE": "Title",
   "DESCRIPTION": "Description",
   "NUMBER_OF_SHEETS": "Number of sheets",
@@ -29,4 +32,5 @@
   "BOOK_INFORMATION": "Book Information",
   "DATE_OF_ADMISION": "Date of admision",
   "ID_BOOKS": "id_books"
+
 }
