@@ -4,5 +4,11 @@ export const SERVICE_CONFIG: Object = {
   },
   'instances': {
     'path': '/instances'
+  },
+  'users2': {
+    'path': '/users2'
+  },
+  'author': {
+    'path': '/author'
   }
 };

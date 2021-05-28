@@ -6,6 +6,8 @@ import { MainComponent } from './main.component';
 import { HomeModule } from './home/home.module';
 import { BooksModule } from './books/books.module';
 import { InstancesModule } from './instances/instances.module';
+import { AuthorsModule } from './authors/authors.module';
+import { UsersModule } from './users/users.module';
 
 export function loadHomeModule() {
   return HomeModule;
@@ -17,6 +19,12 @@ export function loadBooksModule(){
 
 export function loadInstancesModule(){
   return InstancesModule;
+}
+export function loadAuthorsModule(){
+  return AuthorsModule;
+}
+export function loadUsersModule(){
+  return UsersModule;
 }
 
 export const routes: Routes = [
@@ -37,6 +45,14 @@ export const routes: Routes = [
       {
         path: 'instances',
         loadChildren: loadInstancesModule
+      },
+      {
+        path: 'authors',
+        loadChildren: loadAuthorsModule
+      },
+      {
+        path: 'users',
+        loadChildren: loadUsersModule
       }
     ]
   }

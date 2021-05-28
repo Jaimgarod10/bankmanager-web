@@ -1,0 +1,14 @@
+<o-form service="author" entity="author" keys="ID" header-actions="R;I;U;D" show-header-navigation="no">
+  <o-text-input attr="ID" sql-type="INTEGER" enabled="no"></o-text-input>
+  <o-row>
+    <o-column title-label="AUTHOR_INFORMATION" fxFlex>
+      <o-row>
+        <o-text-input attr="NAME" fxFlex="40" required="yes"></o-text-input>
+      </o-row>
+      <o-row>
+        <o-integer-input attr="SURNAMES" class="input-padding" step="0" grouping="no" fxFlex="40"></o-integer-input>
+        <o-integer-input attr="AGE" step="0" class="input-padding" grouping="no" fxFlex="40" required="yes"></o-integer-input>
+      </o-row>
+    </o-column>
+  </o-row>
+</o-form>
