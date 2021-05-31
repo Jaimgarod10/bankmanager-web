@@ -19,7 +19,7 @@ const routes: Routes = [{
 {
   path: ":ID/edit",
   component: LoansDetailComponent
-},
+}
 ];
 
 @NgModule({

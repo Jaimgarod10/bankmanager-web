@@ -1,9 +1,7 @@
-<div fxFlex>
-  <o-table fxFlex service="loans" entity="loans" keys="ID"
+<div>
+  <o-table service="loans" entity="loans" keys="ID"
     columns="ID;USER_ID;DEPARTURE_DATE;MAXIMUM_DATE_TO_RETURN;RETURN_DATE;INSTANCE_ID"
-    visible-columns="ID;USER_ID;DEPARTURE_DATE;MAXIMUM_DATE_TO_RETURN;RETURN_DATE;INSTANCE_ID" query-rows="20">
+    visible-columns="ID;USER_ID;DEPARTURE_DATE" query-rows="20">
     <o-table-column attr="DEPARTURE_DATE" title="DEPARTURE_DATE" type="date" format="LL"></o-table-column>
-    <o-table-column attr="MAXIMUM_DATE_TO_RETURN" title="MAXIMUM_DATE_TO_RETURN" type="date" format="LL"></o-table-column>
-    <o-table-column attr="RETURN_DATE" title="RETURN_DATE" type="date" format="LL"></o-table-column>
   </o-table>
-  </div>
+</div>

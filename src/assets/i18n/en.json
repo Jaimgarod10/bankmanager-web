@@ -14,11 +14,15 @@
   "ERROR_USER_REQUIRED": "Incorrect username.",
   "ERROR_PASS_REQUIRED": "Incorrect password.",
   "ERROR_USER_PASS_INCORRECT": "Invalid username or password.",
-  "CUSTOMERS": "Customers",
+  "INSTANCES": "Instances",
   "BOOKS": "Books",
+  "USERS": "Users",
+  "AUTHORS": "Authors",
+  "LOANS":"Loans",
   "ID": "Id.",
   "NAME": "Name",
   "SURNAMES": "Surnames",
+  "AGE": "Age",
   "PHONE": "Phone",
   "EMAIL": "Email",
   "TITLE": "Title",
@@ -31,6 +35,10 @@
   "ID_AUTHOR": "id_author",
   "BOOK_INFORMATION": "Book Information",
   "DATE_OF_ADMISION": "Date of admision",
-  "ID_BOOKS": "id_books"
-
+  "ID_BOOKS": "id_books",
+  "USER_ID":"User_id",
+  "DEPARTURE_DATE":"Departure date",
+  "MAXIMUM_DATE_TO_RETURN":"Maximum date to return",
+  "RETURN_DATE":"Return date",
+  "INSTANCE_ID":"instance_id"
 }
