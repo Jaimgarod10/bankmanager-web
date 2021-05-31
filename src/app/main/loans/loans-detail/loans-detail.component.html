@@ -1,0 +1,22 @@
+<o-form service="loans" entity="loans" keys="ID" header-actions="R;I;U;D" show-header-navigation="no">
+  <o-text-input attr="ID" sql-type="INTEGER" enabled="no"></o-text-input>
+  <o-row>
+    <o-column title-label="LOANS_INFORMATION" fxFlex>
+      <o-row>
+        <o-date-input attr="DEPARTURE_DATE" fxFlex="20"></o-date-input>
+      </o-row>
+      <o-row>
+        <o-date-input attr="MAXIMUM_DATE_TO_RETURN" fxFlex="20"></o-date-input>
+      </o-row>
+      <o-row>
+        <o-date-input attr="RETURN_DATE" fxFlex="20"></o-date-input>
+      </o-row>
+      <o-row>
+        <o-text-input attr="USER_ID"></o-text-input>
+      </o-row>
+      <o-row>
+        <o-text-input attr="INSTANCE_ID"></o-text-input>
+      </o-row>
+    </o-column>
+  </o-row>
+</o-form>

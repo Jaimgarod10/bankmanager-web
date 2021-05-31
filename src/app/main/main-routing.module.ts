@@ -7,6 +7,7 @@ import { HomeModule } from './home/home.module';
 import { BooksModule } from './books/books.module';
 import { InstancesModule } from './instances/instances.module';
 import { AuthorsModule } from './authors/authors.module';
+import { LoansModule } from './loans/loans.module';
 import { UsersModule } from './users/users.module';
 
 export function loadHomeModule() {
@@ -15,6 +16,10 @@ export function loadHomeModule() {
 
 export function loadBooksModule(){
   return BooksModule;
+}
+
+export function loadLoansModule(){
+  return LoansModule;
 }
 
 export function loadInstancesModule(){
@@ -41,6 +46,10 @@ export const routes: Routes = [
       {
         path: 'books',
         loadChildren: loadBooksModule
+      },
+      {
+        path: 'loans',
+        loadChildren: loadLoansModule
       },
       {
         path: 'instances',
