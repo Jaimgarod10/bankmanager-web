@@ -1,8 +1,10 @@
 <o-form-layout-manager attr="bookshomeTable" title="{{'BOOKS' | oTranslate }}" separator=" " mode="tab" label-columns="ID">
   <div>
     <o-table attr="booksTable" service="books" entity="book" keys="ID"
-      columns="ID;TITLE;DESCRIPTION;NUMBER_OF _SHEETS;ISBN;EDITORIAL;EDITION;DATE_OF_PUBLICATION;ID_AUTHOR"
-      visible-columns="ID;TITLE;DESCRIPTION;ISBN" query-rows="20">
+      columns="ID;PHOTO;TITLE;DESCRIPTION;NUMBER_OF _SHEETS;ISBN;EDITORIAL;EDITION;DATE_OF_PUBLICATION;ID_AUTHOR"
+      visible-columns="ID;PHOTO;TITLE;DESCRIPTION;ISBN" query-rows="20">
+      <o-table-column attr="PHOTO" title="PHOTO" orderable="no" searchable="no" type="image" avatar="yes"
+      empty-image="assets/images/no-image.png" image-type="base64"></o-table-column>
     </o-table>
   </div>
 </o-form-layout-manager>

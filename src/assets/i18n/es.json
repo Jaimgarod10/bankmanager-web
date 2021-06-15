@@ -22,6 +22,10 @@
   "ID": "Id.",
   "NAME": "Nombre",
   "AGE": "Edad",
+  "DATE_OF_BIRTH": "Fecha de nacimiento",
+  "PLACE_OF_BIRTH": "Lugar de nacimiento",
+  "DATE_OF_DEATH": "Fecha de su muerte",
+  "PHOTO": "Portada",
   "TITLE": "Título",
   "DESCRIPTION": "Descripción",
   "NUMBER_OF_SHEETS": "Número de páginas",
@@ -41,5 +45,7 @@
   "DEPARTURE_DATE":"Fecha de inicio",
   "MAXIMUM_DATE_TO_RETURN":"Fecha máx. para devolver",
   "RETURN_DATE":"Fecha devuelta",
+  "OBSERVATIONS": "Observaciones",
+  "STATUS": "Estado",
   "INSTANCE_ID":"id_ejemplar"
 }

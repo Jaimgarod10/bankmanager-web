@@ -23,6 +23,10 @@
   "NAME": "Name",
   "SURNAMES": "Surnames",
   "AGE": "Age",
+  "DATE_OF_BIRTH": "Date of birth",
+  "PLACE_OF_BIRTH": "Place of birth",
+  "DATE_OF_DEATH": "Date of death",
+  "PHOTO": "Book Cover",
   "PHONE": "Phone",
   "EMAIL": "Email",
   "TITLE": "Title",
@@ -40,5 +44,7 @@
   "DEPARTURE_DATE":"Departure date",
   "MAXIMUM_DATE_TO_RETURN":"Maximum date to return",
   "RETURN_DATE":"Return date",
+  "OBSERVATIONS": "Observations",
+  "STATUS": "Status",
   "INSTANCE_ID":"instance_id"
 }
